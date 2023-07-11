@@ -1,5 +1,5 @@
 # requirements.txt
+streamlit==1.2.2
 mysqlclient==2.2.0
 SQLAlchemy==2.0.18
 pandas==1.2.4
-streamlit==1.2.2
