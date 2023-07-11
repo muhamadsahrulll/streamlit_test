@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 
 engine = create_engine(
     # "mysql+pymysql://<username>:<password>@<host>/<dbname>[?<options>]"
-    "mysql+mysqldb://root:qTi5zejHl22POl6ZkUTa@containers-us-west-64.railway.app:7086/railway", 
+    "mysql+mysqlconnector://root:qTi5zejHl22POl6ZkUTa@containers-us-west-64.railway.app:7086/railway", 
 )
 
 # st.write("""# My first app""")
